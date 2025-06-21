@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuraMath AI - Unleashing Mathematical Intelligence</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="canvas-container"></div>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-brain"></i>
+            <span>NeuraMath AI</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#technology" class="nav-link">Technology</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="mobile-menu">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Unleashing</span>
+                    <span class="title-line">Mathematical</span>
+                    <span class="title-line">Intelligence</span>
+                </h1>
+                <p class="hero-subtitle">NeuraMath AI delivers cutting-edge AI solutions for complex mathematical computations, optimization, and data-driven insights.</p>
+                <div class="hero-buttons">
+                    <button class="cta-button primary">Get Started</button>
+                    <button class="cta-button secondary">Watch Demo</button>
+                    <button class="cta-button analytics">Analytics</button>
+                    <button class="cta-button math">Math AI</button>
+                    <button class="cta-button ml">Machine Learning</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-elements">
+                    <div class="floating-card" data-speed="0.5">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Analytics</span>
+                    </div>
+                    <div class="floating-card" data-speed="0.3">
+                        <i class="fas fa-robot"></i>
+                        <span>AI</span>
+                    </div>
+                    <div class="floating-card" data-speed="0.7">
+                        <i class="fas fa-calculator"></i>
+                        <span>Math</span>
+                    </div>
+                    <div class="floating-card" data-speed="0.4">
+                        <i class="fas fa-brain"></i>
+                        <span>Neural</span>
+                    </div>
+                    <div class="floating-card" data-speed="0.6">
+                        <i class="fas fa-network-wired"></i>
+                        <span>Network</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Our Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop" alt="Advanced Computations">
+                    <h3>Advanced Computations</h3>
+                    <p>Perform high-speed, accurate mathematical computations for scientific and industrial applications with our cutting-edge algorithms.</p>
+                    <div class="feature-stats">
+                        <div class="stat">
+                            <span class="stat-number">99.9%</span>
+                            <span class="stat-label">Accuracy</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10x</span>
+                            <span class="stat-label">Faster</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop" alt="AI Optimization">
+                    <h3>AI Optimization</h3>
+                    <p>Leverage AI to optimize algorithms, reduce costs, and improve efficiency in real-time across all your operations.</p>
+                    <div class="feature-stats">
+                        <div class="stat">
+                            <span class="stat-number">50%</span>
+                            <span class="stat-label">Cost Reduction</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Monitoring</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-magnifying-glass-chart"></i>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop" alt="Data Insights">
+                    <h3>Data Insights</h3>
+                    <p>Unlock actionable insights from complex datasets with our AI-driven analytics platform and predictive modeling.</p>
+                    <div class="feature-stats">
+                        <div class="stat">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Models</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">Real-time</span>
+                            <span class="stat-label">Processing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="technology">
+        <div class="container">
+            <h2 class="section-title">Our Technology Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a?q=80&w=2648&auto=format&fit=crop" alt="Machine Learning">
+                    <h3>Machine Learning</h3>
+                    <p>Advanced neural networks and deep learning algorithms</p>
+                </div>
+                <div class="tech-item">
+                    <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=2070&auto=format&fit=crop" alt="Quantum Computing">
+                    <h3>Quantum Computing</h3>
+                    <p>Next-generation quantum algorithms for complex problems</p>
+                </div>
+                <div class="tech-item">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop" alt="Big Data">
+                    <h3>Big Data Analytics</h3>
+                    <p>Scalable data processing and real-time analytics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About NeuraMath AI</h2>
+                    <p>NeuraMath AI is a pioneering startup focused on blending advanced mathematics with artificial intelligence to solve real-world challenges. Our mission is to empower businesses and researchers with scalable, high-performance AI tools.</p>
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Clients Worldwide</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Research Papers</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="stat-number">99.9%</span>
+                            <span class="stat-label">Uptime</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop" alt="Machine Learning AI">
+                    <div class="image-overlay"></div>
+                    <div class="image-badge">
+                        <i class="fas fa-robot"></i>
+                        <span>AI Powered</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="section-title">Ready to Transform Your Business?</h2>
+                <p>Join the future of AI-driven mathematics. Contact us today to explore our solutions and see how we can help you achieve your goals.</p>
+                <div class="cta-buttons">
+                    <button class="cta-button primary">Contact Us</button>
+                    <button class="cta-button secondary">Schedule Demo</button>
+                    <button class="cta-button analytics">Try Analytics</button>
+                    <button class="cta-button math">Math AI Demo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-brain"></i>
+                        <span>NeuraMath AI</span>
+                    </div>
+                    <p>Empowering the future with AI-driven mathematical solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="#features">Features</a>
+                    <a href="#about">About</a>
+                    <a href="#technology">Technology</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 NeuraMath AI. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
